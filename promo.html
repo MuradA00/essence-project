@@ -19,6 +19,7 @@
       };
     </script>
     <link rel="stylesheet" href="css/style.css" />
+    <link rel="stylesheet" href="css/header.css" />
   </head>
 
   <body>
@@ -30,32 +31,32 @@
             <a href="/" class="header-left__logo">
               <img src="img/logo.png" alt="logo" />
             </a>
-            <nav class="header-left__nav">
-              <a href="#" class="header-left-nav__item">
-                <div class="header-left-nav-item__text">главная</div>
+            <div class="header-links">
+              <a href="#" class="header-website-link">
+                На сайт
               </a>
-              <a href="#" class="header-left-nav__item">
-                <div class="header-left-nav-item__text">О сервере</div>
-              </a>
-              <a href="#" class="header-left-nav__item">
-                <div class="header-left-nav-item__text">Новости</div>
-              </a>
-              <a href="#" class="header-left-nav__item">
-                <div class="header-left-nav-item__text">Сообщество</div>
-                <div class="header-left-nav-item__discord">
-                  <img src="img/discord-icon.png" alt="icon" />
-                </div>
-              </a>
-              <a href="#" class="header-left-nav__item">
-                <div class="header-left-nav-item__text">База знаний</div>
-              </a>
-            </nav>
+              <ul class="header-socials">
+                <li class="header-socials__item">
+                  <a href="#" target="_blank" class="header-socials__link">
+                    <img src="img/tg-icon.svg" alt="icon">
+                  </a>
+                </li>
+                <li class="header-socials__item">
+                  <a href="#" target="_blank" class="header-socials__link">
+                    <img src="img/discrod-icon.svg" alt="icon">
+                  </a>
+                </li>
+              </ul>
+            </div>
           </div>
           <!-- right -->
           <div class="header-right">
             <div class="header-right-info__box">
               <div class="header-right-info-box__top">
-                <div class="hribt__text">Список серверов</div>
+                <div class="hribt__text">
+                  <span class="hribt__text hribt__text--desktop">Список серверов</span>
+                  <span class="hribt__text hribt__text--mob">Серверы</span>
+                </div>
                 <div class="header-lang-top__angle">
                   <img src="img/angle-down.png" alt="angle" />
                 </div>
@@ -115,15 +116,9 @@
                   </a>
                 </div>
               </div>
-              <a href="#" class="btn">
-                <div class="btn__back">
-                  <img src="img/header-btn.png" alt="btn" />
-                </div>
-                <div class="btn__text">кабинет</div>
-              </a>
-              <div class="header-burger">
+              <!-- <div class="header-burger">
                 <span></span><span></span><span></span>
-              </div>
+              </div> -->
             </div>
           </div>
         </div>
